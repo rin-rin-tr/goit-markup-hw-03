@@ -1,6 +1,8 @@
 /* font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;*/
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 a {
@@ -151,7 +153,7 @@ body {
   color: var(--color-primary);
   margin-bottom: 10px;
 }
-.team-bg {
+.team-card {
   background-color: #fff;
   width: 270px;
   height: 368px;
@@ -282,7 +284,9 @@ body {
   color: #ffffff;
 }
 .container {
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .section {
   padding: 94px;
