@@ -9,13 +9,12 @@ a {
 }
 ul {
   list-style-type: none;
-  padding: 0px;
-  margin: 0px;
 }
 h1,
 h2,
 h3,
-p {
+p,
+ul {
   margin: 0px;
   padding: 0px;
 }
@@ -54,7 +53,6 @@ body {
   border: none;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
 }
 .button:hover,
 .button:focus {
@@ -129,7 +127,7 @@ body {
   text-transform: uppercase;
   color: #fff;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 }
 
 .visually-hidden {
@@ -159,6 +157,11 @@ body {
   height: 368px;
   left: 215px;
   top: 1632px;
+  padding-bottom: 30px;
+  padding-top: 0px;
+}
+.team-img {
+  margin-bottom: 30px;
 }
 .main-text,
 .job {
@@ -176,25 +179,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--color-primary);
 }
-.speciality {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  padding-left: 215px;
-  padding-right: 215px;
-}
-.benefits {
-  padding-top: 94px;
-  padding-bottom: 94px; /*118*/
-  padding-left: 215px;
-  padding-right: 215px;
-}
-
-.team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  padding-left: 215px;
-  padding-right: 215px;
-}
 
 .name,
 .job {
@@ -205,6 +189,10 @@ body {
   font-weight: 500;
   margin-bottom: 10px;
 }
+.job {
+  margin: 0px;
+}
+
 .contact-foot,
 .adress {
   font-style: normal;
@@ -292,4 +280,10 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+.container {
+  width: 1200px;
+}
+.section {
+  padding: 94px;
 }
