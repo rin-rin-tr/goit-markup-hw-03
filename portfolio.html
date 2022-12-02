@@ -15,38 +15,38 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a href="./index.html" class="logo">
-          Web<span class="logo-studio">Studio</span></a
-        >
-
-        <ul>
+      <div class="container main-nav">
+        <nav class="main-nav">
+          <a href="./index.html" class="logo">
+            Web<span class="logo-studio">Studio</span></a
+          >
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="./index.html" class="link-studio current">Студія</a>
+            </li>
+            <li class="nav-item">
+              <a href="./portfolio.html" class="link-portfolio">Портфоліо</a>
+            </li>
+            <li class="nav-item"><a href="#" class="link-item">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="contacts-head">
           <li>
-            <a href="./index.html" class="link-studio">Студія</a>
-          </li>
-          <li>
-            <a href="./portfolio.html" class="link-portfolio current"
-              >Портфоліо</a
+            <a href="mailto:info@devstudio.com" class="mail"
+              >info@devstudio.com</a
             >
           </li>
-          <li><a href="#" class="link-item">Контакти</a></li>
+          <li>
+            <a href="tel:+38096-111-1111" class="tel"> +38 096 111 11 11</a>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com" class="mail"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+38096-111-1111" class="tel"> +38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <section>
-        <h1 class="visually-hidden">Портфоліо</h1>
-        <ul>
+        <div class="container">
+<h1 class="visually-hidden">Портфоліо</h1>
+        <ul class="portf-btn">
           <li><button type="button" class="b-everything">Усі</button></li>
           <li><button type="button" class="b-web-sites">Веб-сайти</button></li>
           <li><button type="button" class="b-apps">Додатки</button></li>
@@ -54,9 +54,12 @@
           <li><button type="button" class="b-marketing">Маркетинг</button></li>
         </ul>
       </section>
-      <section>
-        <ul>
-          <li>
+      </main>
+    </div>
+      <section >
+        <div class="container">
+        <ul class="brand-ul">
+          <li class="brand-li">
             <a href="#">
               <img
                 src="./images-portfolio/laptop.jpg"
@@ -68,7 +71,7 @@
               <p class="brand-description">Веб-сайт</p></a
             >
           </li>
-          <li>
+          <li class="brand-li">
             <a href="#">
               <img
                 src="./images-portfolio/basket.jpg"
@@ -80,7 +83,7 @@
               <p class="brand-description">Дизайн</p>
             </a>
           </li>
-          <li>
+          <li class="brand-li">
             <a href="#">
               <img
                 src="./images-portfolio/seafood.jpg"
@@ -92,7 +95,7 @@
               <p class="brand-description">Додаток</p>
             </a>
           </li>
-          <li>
+          <li class="brand-li">
             <a href="#">
               <img
                 src="./images-portfolio/headphones.jpg"
@@ -104,7 +107,7 @@
               <p class="brand-description">Маркетинг</p>
             </a>
           </li>
-          <li>
+          <li class="brand-li">
             <a href="#">
               <img
                 src="./images-portfolio/boxes.jpg"
@@ -116,7 +119,7 @@
               <p class="brand-description">Додаток</p>
             </a>
           </li>
-          <li>
+          <li class="brand-li">
             <a href="#">
               <img
                 src="./images-portfolio/computer.jpg"
@@ -128,7 +131,7 @@
               <p class="brand-description">Додаток</p>
             </a>
           </li>
-          <li>
+          <li class="brand-li">
             <a href="#">
               <img
                 src="./images-portfolio/magazine.jpg"
@@ -140,7 +143,7 @@
               <p class="brand-description">Дизайн</p>
             </a>
           </li>
-          <li>
+          <li class="brand-li">
             <a href="#">
               <img
                 src="./images-portfolio/labeltag.jpg"
@@ -152,7 +155,7 @@
               <p class="brand-description">Маркетинг</p>
             </a>
           </li>
-          <li>
+          <li class="brand-li">
             <a href="#">
               <img
                 src="./images-portfolio/growingbusiness.jpg"
@@ -165,7 +168,9 @@
             </a>
           </li>
         </ul>
-      </section>
+      
+        </div>
+        </section>
     </main>
     <footer class="footer">
       <a href="./index.html" class="logo">
