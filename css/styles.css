@@ -44,7 +44,8 @@ body {
   padding-right: 15px;
 }
 .section {
-  padding: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /*Nav*/
