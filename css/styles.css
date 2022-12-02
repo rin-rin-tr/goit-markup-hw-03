@@ -34,6 +34,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--color-primary);
   background-color: #fff;
+  margin: 0 auto;
 }
 .container {
   width: 100%;
@@ -213,6 +214,9 @@ body {
 .team-ul {
   display: flex;
 }
+.team-bg {
+  background-color: var(--color-bg-team);
+}
 .main-text,
 .job {
   font-size: 14px;
@@ -286,6 +290,24 @@ body {
   color: var(--color-rare);
   cursor: default;
 }
+
+.logo-foot {
+  display: block;
+  margin-bottom: 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--color-rare);
+}
+.foot-li {
+  margin-bottom: 9px;
+}
+.foot-li:last-child {
+  margin-bottom: 0;
+}
+/*Portfolio*/
+
 .head-section {
   background-color: var(--color-bg-dark);
 }
