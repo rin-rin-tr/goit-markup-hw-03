@@ -47,6 +47,9 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.pad-section {
+  padding-bottom: 0;
+}
 
 /*Nav*/
 
@@ -116,6 +119,12 @@ body {
 }
 .li-tel {
   margin-left: 50px;
+  display: block;
+  padding: 32px 0;
+}
+.li-mail {
+  display: block;
+  padding: 32px 0;
 }
 
 .logo {
@@ -204,6 +213,9 @@ body {
 .team-card {
   margin-right: 30px;
   background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-card:last-child {
   margin-right: 0;
@@ -231,6 +243,10 @@ body {
 }
 .benefits-ul {
   display: flex;
+}
+.team-container {
+  padding: 30px 0;
+  text-align: center;
 }
 
 .ul-item {
@@ -360,6 +376,8 @@ body {
 .portfolio-li {
   display: block;
   margin-right: 8px;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 .b-everything:focus,
 .b-everything:hover,
@@ -392,7 +410,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 50px;
 }
 .brand-ul {
   display: flex;
