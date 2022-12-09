@@ -48,6 +48,7 @@ body {
   padding-bottom: 94px;
 }
 .pad-section {
+  padding-bottom: 0;
 }
 
 /*Nav*/
