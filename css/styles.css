@@ -46,10 +46,10 @@ img {
 .container {
   width: 1158px;
   max-width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
+
   margin-left: auto;
   margin-right: auto;
+  padding: 0 15px;
 }
 
 /* SECTION */
@@ -61,15 +61,21 @@ img {
 .portfolio-header {
   margin-bottom: 72px;
 }
+
 .visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
   position: absolute;
-  white-space: nowrap;
   width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
+
 /* FLEXBOX */
 .header-div {
   display: flex;
@@ -156,6 +162,7 @@ img {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .menu-link:hover,
@@ -224,7 +231,9 @@ img {
   background-color: #ffffff;
   padding-bottom: 32px;
   width: calc((100%-72px) / 4);
+
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 .team-header {
   font-size: 36px;
