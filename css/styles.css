@@ -46,9 +46,8 @@ img {
 .container {
   width: 1158px;
   max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 15px 0 15px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* SECTION */
